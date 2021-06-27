@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    margin: 0 4px 0 4px;
+}
+
+ul li:nth-child(1),
+ul li:nth-child(2) {
+    float: left;
+}
+
+ul div {
+    float: right;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+#google-konto {
+    float: right;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 25px;
+}
+
+body,
+input,
+button {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+ul li a:active,
+ul li a:visited {
+    color: black;
+}
