@@ -1,3 +1,7 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 ul {
     list-style: none;
 }
@@ -44,10 +48,19 @@ ul li a:visited {
     color: black;
 }
 
-#ikon {
+#ikon {}
+
+#ikon-img:hover {
+    background-color: rgba(147, 169, 180, 0.486);
     border-radius: 50%;
+    border: 2px solid transparent;
 }
 
-#ikon:hover {
-    background-color: rgba(60, 64, 67, 0.08);
+#ikon-img {
+    width: 15px;
+    height: 15px;
+}
+
+#google-konto:hover {
+    background-color: rgba(147, 169, 180, 0.486);
 }
